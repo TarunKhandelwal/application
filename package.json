@@ -1,0 +1,19 @@
+{
+  "name": "apptoutil",
+  "version": "1.0.0",
+  "description": "This is an application for learning node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TarunKhandelwal/application.git"
+  },
+  "author": "Tarun Khandelwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TarunKhandelwal/application/issues"
+  },
+  "homepage": "https://github.com/TarunKhandelwal/application#readme"
+}
