@@ -1,6 +1,6 @@
 {
-  "name": "apptoutil",
-  "version": "1.0.0",
+  "name": "apputility",
+  "version": "2.2.2",
   "description": "This is an application for learning node js",
   "main": "app.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/TarunKhandelwal/application/issues"
   },
-  "homepage": "https://github.com/TarunKhandelwal/application#readme"
+  "homepage": "https://github.com/TarunKhandelwal/application#readme",
+  "files": [
+    "app.js",
+    "src/"
+  ]
 }

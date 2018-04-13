@@ -1,0 +1,22 @@
+{
+  "name": "mainapp",
+  "version": "1.0.0",
+  "description": "This is a main app which will use other modules",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TarunKhandelwal/application.git"
+  },
+  "author": "Tarun Khandelwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TarunKhandelwal/application/issues"
+  },
+  "homepage": "https://github.com/TarunKhandelwal/application#readme",
+  "dependencies": {
+    "apputility": "^2.2.2"
+  }
+}
