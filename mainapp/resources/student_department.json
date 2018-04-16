@@ -7,6 +7,14 @@
       {  
          "studentId":2,
          "departmentId":1
+      },
+      {
+          "studentId":3,
+          "departmentId":2
+      },
+      {
+          "studentId":4,
+          "departmentId":2
       }
    ]
 }
