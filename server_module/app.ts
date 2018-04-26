@@ -1,19 +1,23 @@
 import * as express from "express";
-import {controller} from "./src/main/routes/public_controller";
+import {signalRouter} from './src/main/routes/signal_controller';
+import {vehicleRouter} from './src/main/routes/vehicle_controller';
 
-class Server{
+export class Server{
     public app: express.Application;
 
     private constructor(){
         this.app =  express();
-
-        this.app.use('/welcome',controller);
-
+        this.setRoutes();
         console.log('app initialized');
+    }
+
+    private setRoutes(){
+        this.app.use('/signal',signalRouter);
+        this.app.use('/vehicle',vehicleRouter);
     }
 
     public static BootStrap(): Server {
         return new Server();
     }
 }
-export var app = Server.BootStrap().app;
+module.exports.app = Server.BootStrap().app;

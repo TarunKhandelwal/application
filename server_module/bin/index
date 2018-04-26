@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 "use strict";
-var app = require('../app').app;
+var app = new require('../app').app;
 var http = require('http');
 
 var port = 8080;
@@ -11,6 +11,7 @@ server.listen(port, onListening);
 
 function onListening() {
   var addr = server.address();
+  console.log(addr);
   var bind = typeof addr === "string"
     ? "pipe " + addr
     : "port " + addr.port;
